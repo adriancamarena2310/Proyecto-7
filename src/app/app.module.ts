@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SelectorPageComponent } from './country/pages/selector-page/selector-page.component';
 import { CountriesModule } from './country/countries.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { CountriesModule } from './country/countries.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
 
   ],
   providers: [],
